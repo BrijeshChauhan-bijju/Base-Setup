@@ -1,4 +1,3 @@
-import 'package:base_setup/di/inject.dart' as di;
 import 'package:base_setup/di/injection.dart' as I;
 import 'package:base_setup/presentation/bloc/user_bloc/user_bloc.dart';
 import 'package:base_setup/presentation/page/user_page.dart';
