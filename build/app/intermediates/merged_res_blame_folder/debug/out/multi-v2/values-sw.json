@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Abhishek Chauhan\\StudioProjects\\base_setup\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "C:\\Brijesh_WorkSpace\\base_setup\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Abhishek Chauhan\\.gradle\\caches\\transforms-2\\files-2.1\\b781330f13e915c5e33e9edfc19100b1\\core-1.6.0\\res\\values-sw\\values-sw.xml",
+                    "source": "C:\\Users\\Abhishek Chauhan\\.gradle\\caches\\transforms-3\\1e3e72f4cf55fef90d088e308893d1af\\transformed\\core-1.6.0\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
