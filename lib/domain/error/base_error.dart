@@ -6,7 +6,4 @@ abstract class BaseError implements Exception {
 
   BaseError({required this.error, required this.cause});
 
-  String getFriendlyMessage();
-
-  logError() {}
 }

@@ -16,7 +16,7 @@ import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 import 'package:pretty_dio_logger/pretty_dio_logger.dart' as _i5;
 
-import 'network_module.dart' as _i10;
+import 'app_module.dart' as _i10;
 
 /// ignore_for_file: unnecessary_lambdas
 /// ignore_for_file: lines_longer_than_80_chars
@@ -31,17 +31,16 @@ _i1.GetIt $initGetIt(
     environment,
     environmentFilter,
   );
-  final networkModule = _$NetworkModule();
-  gh.factory<_i3.ApiService>(() => networkModule.apiService);
-  gh.factory<_i4.BaseOptions>(() => networkModule.baseOptions);
-  gh.factory<_i4.Dio>(() => networkModule.dioProvider);
-  gh.factory<_i5.PrettyDioLogger>(() => networkModule.prettyDioLogger);
-  gh.factory<_i6.UserBloc>(() => networkModule.userBlocProvider);
-  gh.factory<_i7.UserRemoteDSImpl>(() => networkModule.userRemoteDSProvider);
-  gh.factory<_i8.UserRepositoryImpl>(
-      () => networkModule.userRepositoryProvider);
-  gh.factory<_i9.UserUseCase>(() => networkModule.userUseCaseProvider);
+  final appModule = _$AppModule();
+  gh.factory<_i3.ApiService>(() => appModule.apiService);
+  gh.factory<_i4.BaseOptions>(() => appModule.baseOptions);
+  gh.factory<_i4.Dio>(() => appModule.dioProvider);
+  gh.factory<_i5.PrettyDioLogger>(() => appModule.prettyDioLogger);
+  gh.factory<_i6.UserBloc>(() => appModule.userBlocProvider);
+  gh.factory<_i7.UserRemoteDSImpl>(() => appModule.userRemoteDSProvider);
+  gh.factory<_i8.UserRepositoryImpl>(() => appModule.userRepositoryProvider);
+  gh.factory<_i9.UserUseCase>(() => appModule.userUseCaseProvider);
   return getIt;
 }
 
-class _$NetworkModule extends _i10.NetworkModule {}
+class _$AppModule extends _i10.AppModule {}
