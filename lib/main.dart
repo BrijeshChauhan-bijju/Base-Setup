@@ -1,11 +1,11 @@
 import 'package:base_setup/di/injection.dart' as I;
+import 'package:base_setup/main/app.dart';
 import 'package:base_setup/presentation/bloc/user_bloc/user_bloc.dart';
-import 'package:base_setup/presentation/page/user_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-void main() async{
+void main() async {
   // WidgetsFlutterBinding.ensureInitialized();
   // await di.init();
   I.configureDependencies();
@@ -27,13 +27,7 @@ class MyApp extends StatelessWidget {
           create: (_) => I.getIt<UserBloc>(),
         ),
       ],
-      child: MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const UserPage(),
-      ),
+      child: App(),
     );
   }
 }

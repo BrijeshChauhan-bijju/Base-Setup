@@ -8,7 +8,7 @@ class AppRouter {
     switch (settings.name) {
       case RoutePaths.userPage:
         return CupertinoPageRoute(
-          builder: (context) => UserPage(),
+          builder: (context) => const UserPage(),
           settings: const RouteSettings(name: RoutePaths.userPage),
         );
 
