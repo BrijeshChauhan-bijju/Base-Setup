@@ -1,4 +1,5 @@
 import 'package:base_setup/data/local_exception/app_local_exception.dart';
+import 'package:base_setup/data/network/api_interceptor.dart';
 import 'package:base_setup/data/network/utils/safe_api_call.dart';
 import 'package:base_setup/data/source/user/user_data_sources.dart';
 import 'package:base_setup/domain/error/base_error.dart';
@@ -19,7 +20,7 @@ class UserRepositoryImpl extends UserRepository {
     required this.localDS,
     required this.dio,
   }) {
-    // _dio.interceptors.add(ApiInterceptor(this, _dio, this._deviceInfoHelper));
+    dio.interceptors.add(ApiInterceptor(dio));
   }
 
   @override
