@@ -1,0 +1,9 @@
+{
+  "appName": "Base Setup",
+  "firstPage": "First Page",
+  "secondPage": "Second Page",
+  "thirdPage": "Third Page",
+  "drawerHeader": "Drawer Header",
+  "bottomNavigation": "Bottom Navigation",
+  "fourthPage": "Fourth Page"
+}
