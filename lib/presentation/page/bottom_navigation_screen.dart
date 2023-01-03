@@ -3,8 +3,8 @@ import 'package:base_setup/presentation/bloc/bottom_navigation_bloc/bottom_navig
 import 'package:base_setup/presentation/page/second_page.dart';
 import 'package:base_setup/presentation/page/third_page.dart';
 import 'package:base_setup/presentation/page/user_page.dart';
-import 'package:base_setup/ui/bottom_navigation_bar.dart';
-import 'package:base_setup/ui/bottom_navigation_item.dart';
+import 'package:base_setup/ui/molecules/navigation_bar/bottom_navigation_bar.dart';
+import 'package:base_setup/ui/molecules/navigation_bar/bottom_navigation_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

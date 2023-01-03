@@ -1,5 +1,5 @@
 import 'package:base_setup/generated/l10n.dart';
-import 'package:base_setup/ui/side_navigation_bar.dart';
+import 'package:base_setup/ui/molecules/navigation_bar/side_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 class ThirdPage extends StatefulWidget {

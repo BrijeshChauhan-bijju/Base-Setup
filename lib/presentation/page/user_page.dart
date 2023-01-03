@@ -3,8 +3,8 @@ import 'package:base_setup/presentation/bloc/user_bloc/user_bloc.dart';
 import 'package:base_setup/presentation/bloc/user_bloc/user_event.dart';
 import 'package:base_setup/presentation/bloc/user_bloc/user_state.dart';
 import 'package:base_setup/ui/app_progress.dart';
-import 'package:base_setup/ui/side_navigation_bar.dart';
-import 'package:base_setup/ui/textfield.dart';
+import 'package:base_setup/ui/molecules/navigation_bar/side_navigation_bar.dart';
+import 'package:base_setup/ui/molecules/textfield/textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
